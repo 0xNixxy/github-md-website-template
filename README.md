@@ -1,24 +1,26 @@
-# github-md-website-template
+# primer-dark-starter
 
-Markdown website template inspired by the markdown renders on GitHub.com in
-dark mode. This template provides an easy way to generate a website on GitHub
-Pages from the markdown files in your repository.
+This template provides an easy way to generate a dark-mode enabled GitHub Pages
+website from markdown files in your repository.
 
-As Jekyll theme Primer is a GitHub Pages default theme that is most similarity
-to the markdown renders on GitHub.com, this template builds upon the Primer
-theme to configure a dark mode equivalent.
+It uses [Primer Dark theme](https://github.com/0xNixxy/primer-dark) for Jekyll,
+which has automatic detection of client browser settings to render the website
+in either dark mode or light mode.
 
-In place of GitHub Flavoured Markdown
-[(GFM) admonitions](https://github.com/orgs/community/discussions/16925), the
-following Unicode characters are used to represent the following equivalent
-admonitions for use in markdown files:
+This template also uses Unicode admonitions, instead of GitHub Flavoured
+Markdown [(GFM) admonitions](https://github.com/orgs/community/discussions/16925),
+to achieve consistent rendering of admonitions across markdown files on
+GitHub.com and HTML pages on GitHub Pages.
+
+## How to use the Unicode admonitions
+
+The following Unicode characters are used to represent the following
+admonitions:
 
 - Note (ℹ️)
 - Tip (💡)
 - Important (‼️)
 - Warning or Caution (⚠️)
-
-## How to use the Unicode admonitions
 
 Insert a Unicode admonition as per the Markdown block below
 
